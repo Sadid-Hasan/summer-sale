@@ -81,12 +81,11 @@ makePurchaseButton.addEventListener("click", function () {
     modal.style.display = "block";
 });
 
-
-
 // Function for modal closing
 const goHomeButton = document.getElementById("go-home-button");
 goHomeButton.addEventListener("click", function () {
     const modal = document.getElementById("modal");
     modal.style.display = "none";
+    location.reload();
     
 });
