@@ -25,7 +25,7 @@
       </script>
     <title>Summer-Sale</title>
 </head>
-<body>
+<body> <!-- Banner Start -->
     <div class="container bg-primary  px-6 py-16  max-w-[1536vh] mx-auto">
         <div class="items-center lg:flex">
             <div class="w-full lg:w-1/2 justify-center items-center">
@@ -34,7 +34,7 @@
                     <h1 class="ml-10 text-3xl font-bold text-black-800 lg:text-6xl">Purchase TK 200 or <br> above & get<span class="text-secondary"> 20% off</span></h1>
                     <div class="flex justify-center items-center flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
                       <p class="mt-1 text-2xl font-normal text-black-700 ">Use Promo Code</p>
-                        <button class="w-fit px-3 py-2 text-lg tracking-wider text-white  transform bg-secondary rounded-lg lg:w-auto lg:mx-4 hover:bg-secondary focus:outline-none focus:bg-secondary">SELL 200</button>
+                        <button class="w-fit px-3 py-2 text-lg tracking-wider text-white  transform bg-secondary rounded-lg lg:w-auto lg:mx-4 hover:bg-secondary focus:outline-none focus:bg-secondary">SELL200</button>
                     </div>
                 </div>
             </div>
@@ -43,142 +43,143 @@
             </div>
         </div>
     </div>
+    <!-- Banner End -->
     <!-- main container -->
     <div class="bg-card container max-w-[1536vh]">
       <div class="flex flex-col lg:flex-row">
         <!-- Product container -->
         <div class="m-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             <!-- card1 -->
-            <div class="card w-96 bg-base-100">
+            <div onclick="handleClikBtn(this)" class="card w-96 bg-base-100">
                 <figure><img src="images/prod1.png" alt="" /></figure>
                 <div class="card-body">
                   <div class="rating justify-center">
-                    <input type="radio" name="rating-1" class="mask mask-star" />
-                    <input type="radio" name="rating-1" class="mask mask-star" checked />
-                    <input type="radio" name="rating-1" class="mask mask-star" />
-                    <input type="radio" name="rating-1" class="mask mask-star" />
-                    <input type="radio" name="rating-1" class="mask mask-star" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
                   </div>
                   <h2 class="card-title justify-center">K. Accessories</h2>
-                  <h2 class="text-sm card-title justify-center">39.00 TK</h2>
+                  <h3 class="text-sm card-title justify-center">39.00 TK</h3>
                 </div>
               </div>
             <!-- card2 -->
-            <div class="card w-96 bg-base-100">
+            <div onclick="handleClikBtn(this)" class="card w-96 bg-base-100">
               <figure><img src="images/prod2.png" alt="" /></figure>
               <div class="card-body">
                 <div class="rating justify-center">
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" checked />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" checked />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                  <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
                 </div>
                 <h2 class="card-title justify-center">K. Accessories</h2>
-                <h2 class="text-sm card-title justify-center">25.00 TK</h2>
+                <h3 class="text-sm card-title justify-center">25.00 TK</h3>
               </div>
             </div>
             
             <!-- card3 -->
-            <div class="card w-96 bg-base-100">
+            <div onclick="handleClikBtn(this)" class="card w-96 bg-base-100">
               <figure><img src="images/prod3.png" alt="" /></figure>
               <div class="card-body">
                 <div class="rating justify-center">
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" checked />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
                 </div>
                 <h2 class="card-title justify-center">Home Cooker</h2>
-                <h2 class="text-sm card-title justify-center">49.00 TK</h2>
+                <h3 class="text-sm card-title justify-center">49.00 TK</h3>
               </div>
             </div>
             <!-- card4 -->
-            <div class="card w-96 bg-base-100">
+            <div onclick="handleClikBtn(this)" class="card w-96 bg-base-100">
               <figure><img src="images/prod4.png" alt="" /></figure>
               <div class="card-body">
                 <div class="rating justify-center">
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" checked />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
                 </div>
                 <h2 class="card-title justify-center">Sports Back Cap</h2>
-                <h2 class="text-sm card-title justify-center">49.00 TK</h2>
+                <h3 class="text-sm card-title justify-center">49.00 TK</h3>
               </div>
             </div>
             <!-- card5-->
-            <div class="card w-96 bg-base-100">
+            <div onclick="handleClikBtn(this)" class="card w-96 bg-base-100">
               <figure><img src="images/prod5.png" alt="" /></figure>
               <div class="card-body">
                 <div class="rating justify-center">
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" checked />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
                 </div>
                 <h2 class="card-title justify-center">Full Jersey Set</h2>
-                <h2 class="text-sm card-title justify-center">69.00 TK</h2>
+                <h3 class="text-sm card-title justify-center">69.00 TK</h3>
               </div>
             </div>
             <!-- card6 -->
-            <div class="card w-96 bg-base-100">
+            <div onclick="handleClikBtn(this)" class="card w-96 bg-base-100">
               <figure><img src="images/prod6.png" alt="" /></figure>
               <div class="card-body">
                 <div class="rating justify-center">
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" checked />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
                 </div>
                 <h2 class="card-title justify-center">K. Accessories</h2>
-                <h2 class="text-sm card-title justify-center">39.00 TK</h2>
+                <h3 class="text-sm card-title justify-center">39.00 TK</h3>
               </div>
             </div>
             <!-- card7 -->
-            <div class="card w-96 bg-base-100">
+            <div onclick="handleClikBtn(this)" class="card w-96 bg-base-100">
               <figure><img src="images/prod7.png" alt="" /></figure>
               <div class="card-body">
                 <div class="rating justify-center">
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" checked />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
                 </div>
                 <h2 class="card-title justify-center">Single Relax Chair</h2>
-                <h2 class="text-sm card-title justify-center">185.00 TK</h2>
+                <h3 class="text-sm card-title justify-center">185.00 TK</h3>
               </div>
             </div>
             <!-- card8 -->
-            <div class="card w-96 bg-base-100">
+            <div onclick="handleClikBtn(this)" class="card w-96 bg-base-100">
               <figure><img src="images/prod8.png" alt="" /></figure>
               <div class="card-body">
                 <div class="rating justify-center">
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" checked />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
                 </div>
                 <h2 class="card-title justify-center">Children play</h2>
-                <h2 class="text-sm card-title justify-center">299.00 TK</h2>
+                <h3 class="text-sm card-title justify-center">299.00 TK</h3>
               </div>
             </div>
             <!-- card9 -->
-            <div class="card w-96 bg-base-100">
+            <div onclick="handleClikBtn(this)" class="card w-96 bg-base-100">
               <figure><img src="images/prod9.png" alt="" /></figure>
               <div class="card-body">
                 <div class="rating justify-center">
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" checked />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
-                  <input type="radio" name="rating-1" class="mask mask-star" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-secondary" />
                 </div>
                 <h2 class="card-title justify-center">K. Accessories</h2>
                 <h2 class="text-sm card-title justify-center">39.00 TK</h2>
@@ -190,25 +191,32 @@
               <!-- Coupon start-->
               <div class="card w-96 bg-base-100 shadow-xl">
                 <div class="card-body">
-                  <h2 class="card-title">Have coupon?</h2>
-                  <div class="flex items-center justify-end">
-                    <input type="text" placeholder="Coupon code" class="input input-bordered input-secondary w-full max-w-xs" />
-                    <button class="btn btn-secondary w-fit">Apply</button>
-                  </div>
+                    <h2 class="card-title">Have coupon?</h2>
+                    <div class="flex items-center justify-end">
+                        <!-- Use ID for the input field -->
+                        <input type="text" placeholder="Coupon code" class="input input-bordered input-secondary w-full max-w-xs" id="input-coupon" />
+                        <!-- Use ID for the button -->
+                        <button class="btn btn-secondary w-fit" id="btn-apply">Apply</button>
+                    </div>
                 </div>
-              </div>
+            </div>
               <!-- Coupon end-->
               <div>
                 <!-- Product List start-->
                 <div class="mt-10 card w-96 bg-base-100 shadow-xl">
                   
                   <div class="card-body items-center text-center">
-                    <h2 class="card-title">Shoes!</h2>
-                    <p>Total price: </p>
-                    <p>Discount:</p>
-                    <p>Total:</p>
+                    <div class="selected-items" id="selected-items">
+
+                    </div>
+                    <div>
+                      <p id="Total_price">Total price : </p>
+                      <p id="Discount">Discount : </p>
+                      <p id="Total">Total : </p>
+                    </div>
+
                     <div class="card-actions">
-                      <button class="btn btn-secondary w-fit">Make Purchase</button>
+                      <button class="btn btn-secondary w-fit" id="make-purchase-button">Make Purchase</button>
                     </div>
                   </div>
                 </div>
@@ -216,7 +224,18 @@
               </div>
             </div>
             <!-- Calculation area end -->
-            
+            <!-- Modal Start -->
+            <div id="modal" class="fixed m-60 inset-0 flex items-center justify-center hidden">
+              <div class="bg-white justify-center items-center rounded-lg shadow-md z-10 max-w-md transform translate-x-1/2 translate-y-1/2">
+                  <img class="mx-auto mb-4" src="images/congo.png" alt="">
+                  <h2 class="text-xl text-center font-semibold mb-2">Congratulations</h2>
+                  <p class="text-center">Your Purchase the product</p>
+                  <div class="text-center mt-4"> <!-- Add a text-center class to center the button -->
+                    <button class="btn btn-secondary mb-4 w-fit" id="go-home-button">Go Home</button>
+                </div>
+              </div>
+          </div>
+             <!-- Modal End -->
   </div>
     <!-- script  -->
     <script src="index.js"></script>
